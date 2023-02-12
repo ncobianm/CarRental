@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{71C3F1F9-2448-41EB-9600-18770437D726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D869ADD7-68BB-43CF-84A5-87C69A42F36B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E303AC08-199F-4795-BB8D-5C3155F3889E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Domain", "Core\CarRental.Domain\CarRental.Domain.csproj", "{17D2790F-3F4A-461C-91DD-35C2B98042F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.APIClient", "Presentation\CarRental.APIClient\CarRental.APIClient.csproj", "{7D1F96E0-79F2-4C56-A1D0-AB8A8BF8EC0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRental.Infrastructure.Data", "Infrastructure\CarRental.Infrastructure.Data\CarRental.Infrastructure.Data.csproj", "{80F39D0B-8F5D-4A17-903A-7205A53A3105}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRental.Application", "Core\CarRental.Application\CarRental.Application.csproj", "{391BADDC-9996-4EAE-9FC0-D5AE83537EDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D2790F-3F4A-461C-91DD-35C2B98042F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D2790F-3F4A-461C-91DD-35C2B98042F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D2790F-3F4A-461C-91DD-35C2B98042F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D2790F-3F4A-461C-91DD-35C2B98042F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1F96E0-79F2-4C56-A1D0-AB8A8BF8EC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1F96E0-79F2-4C56-A1D0-AB8A8BF8EC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1F96E0-79F2-4C56-A1D0-AB8A8BF8EC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1F96E0-79F2-4C56-A1D0-AB8A8BF8EC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F39D0B-8F5D-4A17-903A-7205A53A3105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F39D0B-8F5D-4A17-903A-7205A53A3105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F39D0B-8F5D-4A17-903A-7205A53A3105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F39D0B-8F5D-4A17-903A-7205A53A3105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391BADDC-9996-4EAE-9FC0-D5AE83537EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391BADDC-9996-4EAE-9FC0-D5AE83537EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391BADDC-9996-4EAE-9FC0-D5AE83537EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391BADDC-9996-4EAE-9FC0-D5AE83537EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17D2790F-3F4A-461C-91DD-35C2B98042F8} = {E303AC08-199F-4795-BB8D-5C3155F3889E}
+		{7D1F96E0-79F2-4C56-A1D0-AB8A8BF8EC0E} = {71C3F1F9-2448-41EB-9600-18770437D726}
+		{80F39D0B-8F5D-4A17-903A-7205A53A3105} = {D869ADD7-68BB-43CF-84A5-87C69A42F36B}
+		{391BADDC-9996-4EAE-9FC0-D5AE83537EDE} = {E303AC08-199F-4795-BB8D-5C3155F3889E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9015FE8A-8D8F-4497-B7A5-78A46FA5403B}
+	EndGlobalSection
+EndGlobal
