@@ -26,6 +26,7 @@ Se proponen las siguientes mejoras en el desarrollo utilizando el esqueleto prop
 - Creación de pruebas unitarias
 - Modificación del desarrollo para ser utilizado como parte de un sistema de microservicios que gestionen una conjunto más complejo.
 - Refactorización de los repositorios a una nueva librería para un mejor mantinimiento del código (CarRental.Infrastructure.Repositories).
+- Securización de la API (Identity + JWT?)
 
 ## Postman Collection
 [CarRental.API.postman_collection.zip](https://github.com/ncobianm/CarRental/files/10715630/CarRental.API.postman_collection.zip)
